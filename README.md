@@ -43,4 +43,4 @@ You can use the following parameters:
 [LICENSE.md](LICENSE.md) for details
 
 
-## Thank you all 
+## Thank you all
