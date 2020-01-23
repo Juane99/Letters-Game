@@ -18,10 +18,10 @@ To execute the game just run the following commands:
 ```
 You can use the following parameters:
 
-  .1 The words file (datos/diccionario1.txt)
-  .2 The letters file (datos/letras.txt)
-  .3 The number of letters randomly generated
-  .4 The game mode (L for Length or P for points)
+  .1 The words file (datos/diccionario1.txt)<br/>
+  .2 The letters file (datos/letras.txt)<br/>
+  .3 The number of letters randomly generated<br/>
+  .4 The game mode (L for Length or P for points)<br/>
 
 ```
 ./bin/letras datos/diccionario1.txt datos/letras.txt 8 L
@@ -43,4 +43,4 @@ You can use the following parameters:
 [LICENSE.md](LICENSE.md) for details
 
 
-## Thank you all 🎁
+## Thank you all 
