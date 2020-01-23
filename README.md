@@ -40,7 +40,7 @@ You can use the following parameters:
 
 ## License 📄
 
-[LICENSE.md](LICENSE.md) for details
+[LICENSE](LICENSE.md) for details
 
 
 ## Thank you all
