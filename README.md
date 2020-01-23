@@ -40,7 +40,7 @@ You can use the following parameters:
 
 ## License 📄
 
-[LICENSE](LICENSE.md) for details
+[LICENSE](https://github.com/Juane99/Letters-Game/LICENSE) for details
 
 
 ## Thank you all
