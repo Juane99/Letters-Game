@@ -27,7 +27,7 @@ You can use the following parameters:
 ./bin/letras datos/diccionario1.txt datos/letras.txt 8 L
 ```
 
-## Build with 🛠️
+## Built with 🛠️
 
 * [C++](http://www.cplusplus.com) 
 * [GNU](https://www.gnu.org) 
