@@ -5,7 +5,7 @@
 using namespace std;
 
 bool orden::operator() (const Letra & l1, const Letra & l2){
-		
+
 	return l1.getLetra() < l2.getLetra();
 }
 
@@ -16,8 +16,8 @@ ConjuntoLetras::ConjuntoLetras(){
 }
 
 ConjuntoLetras::ConjuntoLetras(set<Letra,orden> otro){
-	
-	conjunto = otro;	
+
+	conjunto = otro;
 }
 
 ConjuntoLetras::ConjuntoLetras(const ConjuntoLetras & original){
@@ -42,7 +42,7 @@ void ConjuntoLetras::setConjunto(set<Letra,orden> a_cambiar){
 
 
 istream & operator >> (istream &in, ConjuntoLetras & c){
-	
+
 	string cadena;
 	char caracter;
 	int cantidad, puntos;
@@ -53,7 +53,7 @@ istream & operator >> (istream &in, ConjuntoLetras & c){
 
 
 	while (!in.eof()){
-		in >> caracter;		
+		in >> caracter;
 
 		in >> cantidad >> puntos;
 
@@ -66,6 +66,7 @@ istream & operator >> (istream &in, ConjuntoLetras & c){
 		c.conjunto.insert(pos, nueva_letra);
 	}
 
+	return in;
 }
 
 
@@ -75,12 +76,13 @@ istream & operator >> (istream &in, ConjuntoLetras & c){
 ostream & operator << (ostream &out, const ConjuntoLetras & c){
 
 	out << "#Letra Cantidad Puntos" << endl;
-	
+
 	ConjuntoLetras::iterator pos;
-	
+
 	for (pos = c.conjunto.begin(); pos != c.conjunto.end(); ++pos)
 		out << (*pos).getLetra() << '\t' << (*pos).getApariciones() << '\t' << (*pos).getPuntos() << endl;
 
+	return out;
 }
 
 
